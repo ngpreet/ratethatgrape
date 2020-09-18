@@ -7,11 +7,11 @@ const config = require('./server/config');
 
 const app = express();
 
-var corsOptions = {
-    origin: 'https://hungry-mccarthy-a3a315.netlify.app/'
-}
+// var corsOptions = {
+//     origin: 'https://hungry-mccarthy-a3a315.netlify.app/'
+// }
 
-app.use(cors(corsOptions));
+app.use(cors());
 
 app.use(bodyParser.json());
 
