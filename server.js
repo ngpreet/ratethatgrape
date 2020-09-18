@@ -8,7 +8,7 @@ const config = require('./server/config');
 const app = express();
 
 var corsOptions = {
-    origin: 'http://localhost:4200'
+    origin: 'https://hungry-mccarthy-a3a315.netlify.app/'
 }
 
 app.use(cors(corsOptions));
